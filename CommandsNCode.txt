@@ -1,0 +1,2 @@
+aws ec2 run-instances --image-id ami-08e4e35ccdd6189f4 --instance-type t2.micro --security-group-ids sg-09dtde6hf2ce4f8b6 --subnet-id subnet-097b1ac6azffa1724 --key-name keyname --user-data file://user-data-subnet-id.txt
+
